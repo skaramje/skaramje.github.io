@@ -26,7 +26,7 @@ div:nth-of-type(odd){
 #two{
     grid-column: 1 / 2;
     grid-row: 2 / 6;
-    
+    max-height: 100vh;
 }
 #three{
     grid-column: 2 / 3;
@@ -44,7 +44,7 @@ div:nth-of-type(odd){
 img{
     width: 75%;
     max-width: 100%;
-    height: auto;
+    max-height: 100vh;
     border: 2px solid white;
     border-radius: 4px;
     overflow: hidden;
