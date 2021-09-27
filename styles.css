@@ -39,6 +39,7 @@ div:nth-of-type(odd){
 
 .connect-with-me{
     font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fa {
@@ -80,6 +81,7 @@ img:hover{
     background-color: #f16232;
     position: fixed;
     z-index: 100;
+    font-family: 'Roboto', sans-serif;
 }
 
 .socialMediared{

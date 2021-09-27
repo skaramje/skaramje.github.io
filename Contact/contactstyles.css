@@ -19,6 +19,7 @@ div:nth-of-type(odd){
     grid-row: 2;
     background-color: white;
     vertical-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .name{
@@ -42,6 +43,7 @@ div:nth-of-type(odd){
     background-color: #f16232;
     position: fixed;
     z-index: 100;
+    font-family: 'Roboto', sans-serif;
 }
 
 

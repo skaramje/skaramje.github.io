@@ -32,9 +32,11 @@ div:nth-of-type(odd){
 #three{
     grid-column: 2 / 3;
     grid-row: 2 / 6;
+    font-size: 1.2em;
     text-align: justify;
     padding-left: 30px;
     overflow: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 #four{
@@ -61,4 +63,5 @@ img:hover{
     background-color: #f16232;
     position: fixed;
     z-index: 100;
+    font-family: 'Roboto', sans-serif;
 }
