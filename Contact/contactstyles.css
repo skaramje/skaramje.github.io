@@ -37,10 +37,11 @@ div:nth-of-type(odd){
 }
 
 #six{
-    grid-column: 1 / 7;
-    grid-row: 4;
+    bottom: 0;
+    width: 100%;
     background-color: #f16232;
-    text-align: center;
+    position: fixed;
+    z-index: 100;
 }
 
 
