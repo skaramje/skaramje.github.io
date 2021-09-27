@@ -1,11 +1,11 @@
 .content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 100vh;
 }
 div{
-    background: #f8f8f8;
+    background: white;
     text-align: center;
     vertical-align: center;
     object-fit: scale-down;
@@ -25,26 +25,29 @@ div:nth-of-type(odd){
 }
 #two{
     grid-column: 1 / 2;
-    grid-row: 2 / 4;
+    grid-row: 2 / 6;
+    
 }
 #three{
     grid-column: 2 / 3;
-    grid-row: 2 / 4;
+    grid-row: 2 / 6;
+    text-align: justify;
+    padding-left: 30px;
 }
 
 #four{
     grid-column: 3 / 4;
-    grid-row: 2 / 4;
+    grid-row: 2 / 6;
     top: 0;
+    overflow: hidden;
 }
 img{
-    width: auto;
+    width: 75%;
     max-width: 100%;
     height: auto;
-    border: 1px solid #f8f8f8;
+    border: 2px solid white;
     border-radius: 4px;
-    transform: scale(1);
-    zoom: 0.2;
+    overflow: hidden;
 }
 img:hover{
     box-shadow: 0 0 10px 1px rgb(255, 94, 0); 
