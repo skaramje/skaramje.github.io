@@ -27,6 +27,7 @@ div:nth-of-type(odd){
     grid-column: 1 / 2;
     grid-row: 2 / 6;
     max-height: 100vh;
+    padding-left: 30px;
 }
 #three{
     grid-column: 2 / 3;
