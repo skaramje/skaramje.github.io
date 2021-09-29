@@ -11,7 +11,7 @@ div{
     object-fit: scale-down;
 }
 div:nth-of-type(odd){
-    background: white;
+    background: none;
 }
 
 #one{
