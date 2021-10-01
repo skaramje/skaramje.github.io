@@ -43,6 +43,7 @@ div:nth-of-type(odd){
 .connect-with-me{
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 60px;
 }
 
 .fa {
@@ -57,11 +58,6 @@ div:nth-of-type(odd){
   
 .fa:hover {
       opacity: 0.7;
-}
-
-#two{
-    grid-column: 1 / 5;
-    grid-row: 6 / 11;
 }
 
 img{
@@ -171,6 +167,7 @@ color: #CDFEAA;
     .connect-with-me{
         font-size: 1.5em;
         font-family: 'Roboto', sans-serif;
+        padding-bottom: 60px;
     }
     
     .fa {
