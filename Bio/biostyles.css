@@ -47,7 +47,8 @@ div:nth-of-type(odd){
     grid-row: 2 / 5;
     top: 0;
     max-height: 100vh;
-    overflow: hidden;
+    max-width: 100%;
+    overflow: auto;
 }
 
 img{
